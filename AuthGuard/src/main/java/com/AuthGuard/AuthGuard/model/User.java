@@ -10,7 +10,7 @@ import java.util.Set;
 @NoArgsConstructor
 @AllArgsConstructor
 public class User {
-
+// Represents a user in your system with username, password, and roles.
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
